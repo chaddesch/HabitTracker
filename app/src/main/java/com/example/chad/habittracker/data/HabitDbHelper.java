@@ -6,10 +6,12 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import com.example.chad.habittracker.data.HabitContract.HabitEntry;
 
+
+
+
 /**
  * Database helper for HabitTracker app. Manages database creation and version management.
  */
-
 public class HabitDbHelper extends SQLiteOpenHelper {
 
     public static final String LOG_TAG = HabitDbHelper.class.getSimpleName();
