@@ -65,11 +65,11 @@ public final class HabitContract {
 
 
         /**
-         * The number of times the habit is completed
+         * The number_of_times the habit is completed
          *
          * Type: INTEGER
          */
-        public final static String COLUMN_NO_OF_TIMES ="number of times";
+        public final static String COLUMN_NO_OF_TIMES ="number_of_times";
 
         /**
          * Whether or not the habit was accomplished. Might be helpful for habits that are difficult
@@ -102,9 +102,9 @@ public final class HabitContract {
         public static final int DAYTIME_EVENING = 4;
 
         /**
-         * Possible values for number of times.
+         * Possible values for number_of_times.
          *
-         * Max number of times is 10.
+         * Max number_of_times is 10.
          */
         public static final int ONE = 0;
         public static final int TWO = 1;

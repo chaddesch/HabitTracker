@@ -80,7 +80,7 @@ public class CatalogActivity extends AppCompatActivity {
             // Create a header in the Text View that looks like this:
             //
             // The habits table contains <number of rows in Cursor> habits.
-            // _id - name - trigger - weekday - daytime - number of times - accomplished
+            // _id - name - trigger - weekday - daytime - number_of_times - accomplished
             //
             // In the while loop below, iterate through the rows of the cursor and display
             // the information from each column in this order.
